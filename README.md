@@ -1,4 +1,6 @@
 # AuthzForce RESTful PDP
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fauthzforce%2Frestful-pdp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fauthzforce%2Frestful-pdp?ref=badge_shield)
+
 RESTful PDP API implementation, compliant with REST Profile of XACML 3.0. This is minimalist compared to [AuthzForce server project](http://github.com/authzforce/server) as it does not provide multi-tenant PDP/PAP but only a single PDP (per instance). Therefore, this is more suitable for microservices, or, more generally, simple applications requiring only one PDP per instance.
 
 In particular, the project provides the following (Maven groupId:artifactId):
@@ -31,6 +33,9 @@ See the [change log](CHANGELOG.md) following the *Keep a CHANGELOG* [conventions
 
 ## License
 See the [license file](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fauthzforce%2Frestful-pdp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fauthzforce%2Frestful-pdp?ref=badge_large)
 
 ## Getting started
 Get the [latest executable jar](http://central.maven.org/maven2/org/ow2/authzforce/authzforce-ce-restful-pdp-cxf-spring-boot-server/) from Maven Central with groupId/artifactId = `org.ow2.authzforce`/`authzforce-ce-restful-pdp-cxf-spring-boot-server`.
